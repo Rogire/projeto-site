@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+*{
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    text-align: justify;
+
+}
+body{
+    background-color: rgb(95, 149, 201);
+    min-height: 100vh;
+    background-image: linear-gradient(45deg,rgb(95, 149, 201), rgb(223, 157, 157));
+}
+#hora{
+    text-align: right;
+    font-family:'Oswald',sans-serif;
+    font-weight: bolder;
+    font-size: 25px;
+    
+}
+#agora{
+    text-align: right;
+}
+a{
+    margin: 10px;
+}
+hr{
+    height: 5px;
+    border: none;
+    background-color: rgb(126, 125, 125);
+}
+h1{
+    color: white;
+}
+h2{
+    color: aliceblue;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #7a817b;
+    margin: 15px;
+    width:270px;
+    padding: 15px;
+    border-radius: 5px;
+    position: relative;
+    opacity: 0;
+    filter: blur(5px);
+   transform: translateX(-100%);
+    transition: all 1s;
+}
+.conta{
+    height: 100px;
+    overflow: hidden;
+    position: relative;
+    
+}
+.card.active .conta{
+    height: auto;
+}
+
+.card.active .conta::before{
+    visibility: hidden;
+}
+.conta p{
+    color:#ffffff;
+}
+
+
+#ler{
+    border: none;
+    width: 110px;;
+    padding: 10px;
+    border-radius: 2px;
+    margin-top: 15px;
+    background-color: #47c2e7;
+    color: #313131;
+    font-weight: bold;
+    font-size: 16px;
+    transition: all 0.2s ease-in-out;}
+
+#ler:hover{
+    background-color: transparent;
+    color: #ffffff;
+    transition: all 0.2s ease-in-out;
+}
+
+.show{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+@media(prefers-reduced-motion){
+    .card{
+        transition: none;
+    }
+}
+
