@@ -12,9 +12,11 @@ function limpar(){
 function resultado(){
     let resultado= p.innerHTML
     if(resultado){
-        p.innerHTML = eval(resultado).toFixed(3)
+        p.innerHTML = eval(resultado)
     } else {
         alert('insira os números!')
+    } if(p.innerHTML.length>3){
+        p.innerHTML=eval(resultado).toFixed(3)
     }
 }
 function apagar(){
