@@ -12,7 +12,7 @@ function limpar(){
 function resultado(){
     let resultado= p.innerHTML
     if(resultado){
-        p.innerHTML = eval(resultado)
+        p.innerHTML = eval(resultado).toFixed(3)
     } else {
         alert('insira os números!')
     }
