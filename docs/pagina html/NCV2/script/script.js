@@ -17,7 +17,7 @@ function resultado(){
         alert('insira os números!')
     } if(p.innerHTML.length>3){
         p.innerHTML=eval(resultado).toFixed(3)
-    }
+    } 
 }
 function apagar(){
     let ap=p.innerHTML
