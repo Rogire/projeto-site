@@ -68,7 +68,7 @@ const relogio= setInterval( function data(){
         break
     }
 
-    didat.innerHTML=`Hoje é dia ${dia} de ${mês} de ${ano}`
+    didat.innerHTML=`${dia} de ${mês} de ${ano}`
     diHor.innerHTML=`${hora}:${min}:${sec}`
 
 })
