@@ -15,8 +15,8 @@ function resultado(){
         p.innerHTML = eval(resultado)
     } else {
         alert('insira os números!')
-    } if(p.innerHTML.length>3){
-        p.innerHTML=eval(resultado).toFixed(3)
+    } if(p.innerHTML.length>9){
+        p.innerHTML=eval(resultado).toFixed(2)
     } 
 }
 function apagar(){
