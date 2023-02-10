@@ -26,6 +26,14 @@ const relogio= setInterval( function data(){
     if(dia<10){
         dia='0'+ dia
     }
+    // muda a cor do fundo do relógio de acordo com a hora
+    if(hora>0 && hora<12){
+        document.body.style.backgroundImage='linear-gradient(to right, #FFB50D, #F5DC01 60% )'
+    } else if(hora>12 && hora<18){
+        document.body.style.backgroundImage='linear-gradient(to right, #E05C02, #DE970B 60% )'
+    } else{
+        document.body.style.backgroundImage='linear-gradient(to right, #113799, #3D096B 60%  )' 
+    }
     
 
     //switch para colocar o mês escrito por extenso
