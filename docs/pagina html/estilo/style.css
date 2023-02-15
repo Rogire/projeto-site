@@ -10,11 +10,12 @@ body{
     min-height: 100vh;
     background-image: linear-gradient(to right,#EBBFB5,#E8AF90,#E0B696);
     background-attachment: fixed;
+    margin: 0;
 }
 header{
     background-color: #299da5bd;
     height: max-content;
-    margin: 5px;
+    margin: 0px;
     padding: 5px;
 }
 #hora{
