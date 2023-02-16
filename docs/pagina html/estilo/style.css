@@ -178,3 +178,7 @@ img{
     background-color:transparent;
     transition: all 0.3 ease-in-out;
 }
+footer{
+    margin: auto;
+    text-align: center;
+}
