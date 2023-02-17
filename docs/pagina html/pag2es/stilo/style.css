@@ -4,12 +4,15 @@
 body{
     background-image: none;
     background-color:#6B777D;
+    transition: all 0.1s;
 }
 body.active{
     background-color: #f0f0f0;
+    transition: all 0.1s;
 }
 header.active{
     background-color: rgba(216, 166, 0, 0.795);
+    transition: all 0.1s;
 }
 h1{
     font-size: 20px;
@@ -17,6 +20,7 @@ h1{
 header{
     background-color: #263D40;
     color: #fff;
+    transition: all 0.1s;
 }
 hr{
     background-color: #82CFD9;

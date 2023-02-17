@@ -35,7 +35,7 @@ const relogio= setInterval( function data(){
         document.body.style.backgroundImage='linear-gradient(to right, #113799, #3D096B 60%  )' 
     }
     
-
+''
     //switch para colocar o mês escrito por extenso
     switch(mês){
         case 0: 

@@ -12,26 +12,32 @@ body{
     background-image: linear-gradient(to right,#EBBFB5,#E8AF90,#E0B696);
     background-attachment: fixed;
     margin: 0;
+    transition: all 0.1s;
 }
 body.active{
     background-image: none;
     background-color: #263D40;
     color: bisque;
+    transition: all 0.1s;
 }
 body.active li{
     color: black;
+    transition: all 0.1s;
 }
 body.active #sec{
     background-color: #1c92a1;
+    transition: all 0.1s;
 }
 header{
     background-color: #299da5bd;
     height: max-content;
     margin:0;
     padding: 5px;
+    transition: all 0.1s;
 }
 header.active{
     background-color: #4B777D;
+    transition: all 0.1s;
 }
 main{
     max-width: 100%;

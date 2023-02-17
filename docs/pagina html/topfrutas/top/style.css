@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    margin: 0;
+    background-color: rgba(230, 230, 27, 0.726);
+    background-image: none;
+}
+header{
+    margin: 0;
+}
+article{
+    padding: 15px;
+    background-color: rgba(84, 199, 38, 0.774);
+    margin: auto;
+    max-width: 800px;
+    text-align: justify;
+    border-radius: 10px;
+}
+h2{
+    margin: 5px;
+}
+h3{
+    margin: 5px;
+}
+#nana{
+    color: yellow;
+}
+#maça{
+    color: red;
+}
+#mela{
+    color: pink;
+}
+#mid{
+    color: orange;
+}
+#mama{
+    color: lightsalmon;
+}
+div{
+    border-radius: 7px;
+}
+#bal{
+    background-color: rgba(255, 255, 71, 0.486);
+    padding: 5px;
+    width: 100%;
+    margin: 0;
+}
+#mac{
+    background-color: #ff4e5a6e;
+    padding: 5px;
+    width: 100%;
+    margin: 0;
+}
+#mel{
+    background-color: rgba(242, 115, 83, 0.479);
+    padding: 5px;
+    width: 100%;
+    margin: 0;
+}
+#toranjo{
+    background-color: rgba(254, 111, 1, 0.438);
+    padding: 5px;
+    width: 100%;
+    margin: 0;
+}
+#mamas{
+    background-color: rgba(255, 64, 21, 0.452);
+    padding: 5px;
+    width: 100%;
+    margin: 0;
+}
+
+footer{
+    text-align: center;
+}
+#hidden{
+    display: none;
+}
+#hidden.active{
+    display: block;
+    margin: auto;
+    max-width: 800px;
+    text-align: justify;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: rgba(84, 199, 38, 0.774);
+}
+#tfund{
+    padding: 15px;
+    background-color: rgba(189, 47, 25, 0.699);
+}
