@@ -19,6 +19,9 @@ article{
     text-align: justify;
     border-radius: 10px;
 }
+#main{
+    color: black;
+}
 h2{
     color: black;
     margin: 5px;
@@ -27,7 +30,7 @@ h3{
     margin: 5px;
 }
 #nana{
-    color: yellow;
+    color: rgb(145, 145, 0);
 }
 #maça{
     color: red;
