@@ -11,7 +11,6 @@ body{
 header{
     margin: 0;
     border: 3px solid black;
-    border
 }
 article{
     padding: 15px;
@@ -24,6 +23,8 @@ article{
 }
 .main{
     color: black;
+    text-align: center;
+    font-weight: bolder;
 }
 a{
     color: black;
