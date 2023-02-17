@@ -10,6 +10,8 @@ body{
 }
 header{
     margin: 0;
+    border: 3px solid black;
+    border
 }
 article{
     padding: 15px;
