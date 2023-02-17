@@ -12,7 +12,16 @@ header{
     margin: 0;
     border: 3px solid black;
 }
+nav>a{
+    color: white;
+    font: normal 20px 'Oswald', sans-serif;
+    text-decoration: none;
+}
+main{
+    margin: auto;
+}
 article{
+    height: 100%;
     padding: 15px;
     background-color: rgba(243, 243, 243, 0.877);
     margin: auto;

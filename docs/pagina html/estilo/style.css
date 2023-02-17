@@ -35,6 +35,9 @@ header{
     padding: 5px;
     transition: all 0.1s;
 }
+header> h1{
+    margin: 0;
+}
 header.active{
     background-color: #4B777D;
     transition: all 0.1s;
@@ -46,11 +49,10 @@ main{
 #esca{
 
     position: relative;
-    margin: 10px;
-    padding: 10px;
+    margin:0;
+    padding:15px;
     background-color: transparent;
     text-align: right;
-    transform: translateY(-55px);
 }
 #esca:hover{
     background-color: gray;
@@ -60,9 +62,7 @@ main{
     font-family:'Oswald',sans-serif;
     font-weight: bolder;
     font-size: 25px;
-    transform: translateY(-125px);
-    
-    
+    margin: 0;
 }
 #agora{
     text-align: right;
@@ -72,6 +72,7 @@ a{
     color: #ffffff;
 }
 hr{
+    margin: 0;
     height: 5px;
     border: none;
     background-color: rgb(126, 125, 125);
