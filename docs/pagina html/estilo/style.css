@@ -46,13 +46,15 @@ main{
     max-width: 100%;
     margin: 15px;
 }
+.apresent{
+    display: flex;
+    justify-content: space-between;
+}
 #esca{
-
-    position: relative;
     margin:0;
-    padding:15px;
+    padding:5px;
+    max-height: 25px;
     background-color: transparent;
-    text-align: right;
 }
 #esca:hover{
     background-color: gray;
