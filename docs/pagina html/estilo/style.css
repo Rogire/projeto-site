@@ -170,7 +170,7 @@ img{
 
 }
 
-#li{
+.li{
     background-color: #313131;
     display: flex;
     flex-direction: column;
@@ -183,7 +183,7 @@ img{
     transition: all 0.3 ease-in-out;
 
 }
-#li:hover{
+.li:hover{
     background-color:transparent;
     transition: all 0.3 ease-in-out;
 }
