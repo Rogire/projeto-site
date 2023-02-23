@@ -7,6 +7,7 @@
     --corBeg:#E0AD67;
 }
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 *{
     margin: 0;
     font-family: 'Roboto', sans-serif;
@@ -34,7 +35,7 @@ nav > a{
 body{
     margin: 0;
     padding:0;
-    background-color: var(--corfundo);
+    background-image: linear-gradient(to bottom, var(--corfundo), var(--corx));
 }
 main{
     margin:0px 0px 0px 15px ;
@@ -104,6 +105,12 @@ div.parallax.parallax2{
 }
 .ima{
     line-height: 1.5em;
+    width: 100%;
+    padding: 0px;
+    position: relative;
+}
+#gambs{
+    margin: 0px 0px 0px 15px;
 }
 section.paralal{
     height: 100vh;
@@ -118,14 +125,52 @@ div.parallax.parallax3{
 }
 .pimg{
     line-height: normal;
-    min-width: 30%;
     width: 30%;
     height: auto;
     min-height: 50%;
     padding: 20px;
     margin: 30px 50px 30px 50px;
-    font-size: 33px;
+    font-size: 2.0vw;
     text-align: left;
     color: #fff;
     background-color:#435966bb;
+}
+.img{
+    position: absolute;
+    left: 3%;
+    transform: translateY(-105%);
+    
+}
+    s{
+        color: black;
+    }
+@media (max-width:600px) {
+    main{
+        margin: 0;
+        padding: 0px 10px 0px 10px;
+    }
+    section.conteudo{
+        font-size: 6vw;
+        
+    }
+    img {
+        width: 250px;
+        height: auto;
+    }
+
+    .pimg {
+        font-size: 6vw;
+        width: auto;
+    }
+    .ima{
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #gambs{
+        margin: 0px 0px 0px 5px;
+    }
+
 }
