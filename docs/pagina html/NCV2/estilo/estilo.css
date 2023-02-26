@@ -56,3 +56,6 @@ input{
 .a:hover{
     background-color: rgb(192, 192, 192);
 }
+section{
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.495);
+}

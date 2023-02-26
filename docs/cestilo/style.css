@@ -41,13 +41,13 @@ main{
     margin:0px 0px 0px 15px ;
     padding:0px 15px 0px 15px;
     min-width: 80%;
-    
 }
 a{
     text-decoration: none;
     color: #fff;
-    padding: 5px;
+    padding: 1px;
     background-color: var(--corM);
+    
 }
 a:hover{
     color: lightgray;
@@ -61,6 +61,7 @@ section.conteudo{
     font-size: 20px;
     text-align: left;
     background-color: var(--corBeg);
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.425);
 }
 section.conteudo.pal2{
     padding: 0px;
@@ -93,6 +94,7 @@ div.parallax{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: 50% 50%;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.425);
 }
 div.parallax.parallax1{
     background-image: url('imagens/programando.jpg');
@@ -125,12 +127,11 @@ div.parallax.parallax3{
 }
 .pimg{
     line-height: normal;
-    width: 30%;
-    height: auto;
-    min-height: 50%;
+    display: inline-block;
+    max-width: 50%;
     padding: 20px;
     margin: 30px 50px 30px 50px;
-    font-size: 2.0vw;
+    font-size: 1.5em;
     text-align: left;
     color: #fff;
     background-color:#435966bb;
@@ -150,7 +151,7 @@ div.parallax.parallax3{
         padding: 0px 10px 0px 10px;
     }
     section.conteudo{
-        font-size: 6vw;
+        font-size: 1.5em;
         
     }
     img {
@@ -159,8 +160,8 @@ div.parallax.parallax3{
     }
 
     .pimg {
-        font-size: 6vw;
-        width: auto;
+        font-size: 1.5em;
+        display: inline-block;
     }
     .ima{
         padding: 0;

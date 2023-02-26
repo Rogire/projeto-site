@@ -47,11 +47,11 @@ escu.addEventListener('click', function () {
 
     modo.classList.toggle('active');
     if (modo.classList.contains('active')) {
-        modo.classList.toggle('inactive')
+        modo.classList.remove('active')
     }
 
     claro.classList.toggle('active');
     if (claro.classList.contains('active')) {
-        claro.classList.toggle('inactive')
+        claro.classList.remove('active')
     }
 })
