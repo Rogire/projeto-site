@@ -30,7 +30,7 @@ const observer = new IntersectionObserver((entries)=>{
     entries.forEach((entry)=>{
         console.log(entry)
         if(entry.isIntersecting){
-            entry.target.classList.add('show');
+            entry.target.classList.toggle('show');
         } else{
             entry.target.classList.remove('show');
         }
@@ -46,12 +46,7 @@ escu.addEventListener('click', function () {
     let claro = document.getElementById('cabeçalho')
 
     modo.classList.toggle('active');
-    if (modo.classList.contains('active')) {
-        modo.classList.remove('active')
-    }
 
     claro.classList.toggle('active');
-    if (claro.classList.contains('active')) {
-        claro.classList.remove('active')
-    }
+
 })
