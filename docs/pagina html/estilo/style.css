@@ -104,10 +104,12 @@ h2{
     height: 100px;
     overflow: hidden;
     position: relative;
+    transition: all 1s;
     
 }
 .card.active .conta{
     height: auto;
+    transition: all 1s;
 }
 
 .card.active .conta::before{
